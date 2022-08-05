@@ -5,7 +5,7 @@ from pageObjects.customerPage import CustomerPage
 from pageObjects.loginPage import LoginPage
 from utilities import XLutils
 
-path = "C:/Users/san/PycharmProjects/NopCommerce/testData/testData.xlsx"
+path = "C:/Users/san/PycharmProjects/SampleSeleniumProject31072022/testData/testData.xlsx"
 row = XLutils.get_row_count(path, "Sheet1")
 
 class Test_Nop_Commerce:
